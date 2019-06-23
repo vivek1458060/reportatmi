@@ -1,0 +1,23 @@
+.autocomplete {
+    position: relative;
+  }
+  
+  .autocomplete-list {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #cacccd;
+    z-index: 10;
+  }
+  
+  .autocomplete-list__item {
+    background: #f7f7f7;
+    width: 336px;
+    padding: 5px $s-size;
+    cursor: pointer;
+    border-bottom: 1px solid #cacccd;
+    &:hover {
+      background: darken(#f7f7f7, 2%);
+    }
+  }

@@ -1,0 +1,55 @@
+.card {
+    display: flex;
+    h3, p {
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        flex-direction: column;
+    }
+    .card-image {
+        width: 100%;
+    }
+}
+
+.card-body {
+    margin-left: 10px;
+}
+
+.card-body {
+    margin: 0 0 0 10px;
+    padding: 0;
+    list-style-type: none;
+    .card-body__title {
+        font-size: 18px;
+        color: #1c88bf;
+    }
+    .card-body__subtitle {
+        font-size: 15px;
+        line-height: 1.4;
+        color: #364051;
+    }
+    .card-body__createdDate {
+        font-size: 14px;
+        color: grey;
+        margin-top: 5px;
+    }
+    .card-body__cost {
+        background: fade-out(#364051, .2);
+        font-size: 14px;
+        width: 205px;
+        border-radius: 3px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        span {
+            font-weight: bold;
+            font-size: 16px;
+            margin-left: 5px;
+        }
+    }
+}

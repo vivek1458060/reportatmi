@@ -1,0 +1,9 @@
+.input-group--top {
+    margin-bottom: 16px;
+}
+
+.input-group--top {
+    @media (max-width: $desktop-breakpoint) {
+        margin-bottom: 0;
+    }
+}

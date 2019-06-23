@@ -1,0 +1,15 @@
+.filtersAndReports-container {
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: row;
+}
+
+.filtersAndReports-container .reportList {
+    flex-grow: 1;
+}
+
+@media (max-width: 1100px) {
+    .filtersAndReports-container {
+        flex-direction: column;
+    }
+}
